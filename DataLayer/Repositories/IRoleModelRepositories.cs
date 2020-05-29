@@ -1,8 +1,9 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace DataLayer
 {
-    public interface IRoleModelRepositories
+    public interface IRoleModelRepositories:IDisposable
 
     {
         IEnumerable<RoleModel> GetAllRoles();

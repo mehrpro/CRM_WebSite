@@ -6,7 +6,12 @@ namespace DataLayer
 {
     public class RoleModelRepositories : IRoleModelRepositories
     {
-        CRM_Sepehr db = new CRM_Sepehr();
+        private CRM_Sepehr db;
+
+        public RoleModelRepositories(CRM_Sepehr crmSepehr)
+        {
+            this.db = crmSepehr;
+        }
         public IEnumerable<RoleModel> GetAllRoles()
         {
             return db.RoleModels;
@@ -73,6 +78,11 @@ namespace DataLayer
         public bool save()
         {
             return Convert.ToBoolean(db.SaveChanges());
+        }
+
+        public void Dispose()
+        {
+            db.Dispose();
         }
     }
 }

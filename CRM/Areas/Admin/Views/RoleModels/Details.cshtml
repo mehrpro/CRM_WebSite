@@ -1,0 +1,34 @@
+﻿@model DataLayer.RoleModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>جزپیات</h2>
+
+<div>
+    <h4>RoleModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Role)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Role)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Enabled)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Enabled)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("ویرایش", "Edit", new { id = Model.RoleID }) |
+    @Html.ActionLink(" بازگشت به لیست ", "Index")
+</p>

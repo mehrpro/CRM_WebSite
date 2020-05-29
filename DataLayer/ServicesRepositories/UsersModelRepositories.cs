@@ -6,7 +6,12 @@ namespace DataLayer
 {
     public class UsersModelRepositories : IUserModelRepositories
     {
-        private CRM_Sepehr db = new CRM_Sepehr();
+        private CRM_Sepehr db;
+
+        public UsersModelRepositories(CRM_Sepehr crmSepehr)
+        {
+            this.db = crmSepehr;
+        }
         public IEnumerable<UsersModel> GetAllUsers()
         {
             return db.UsersModels;

@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRM_WebSite", "CRM_WebSite\CRM_WebSite.csproj", "{A0940881-4B17-4542-82A4-76AAD207760B}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "DataLayer\DataLayer.csproj", "{FF505B19-1E30-4ED5-B12B-DC37E852C801}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRM", "CRM\CRM.csproj", "{92F38632-1FAD-433F-B340-15DC35CCC24F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A0940881-4B17-4542-82A4-76AAD207760B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A0940881-4B17-4542-82A4-76AAD207760B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A0940881-4B17-4542-82A4-76AAD207760B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A0940881-4B17-4542-82A4-76AAD207760B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FF505B19-1E30-4ED5-B12B-DC37E852C801}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FF505B19-1E30-4ED5-B12B-DC37E852C801}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF505B19-1E30-4ED5-B12B-DC37E852C801}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF505B19-1E30-4ED5-B12B-DC37E852C801}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92F38632-1FAD-433F-B340-15DC35CCC24F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92F38632-1FAD-433F-B340-15DC35CCC24F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92F38632-1FAD-433F-B340-15DC35CCC24F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92F38632-1FAD-433F-B340-15DC35CCC24F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

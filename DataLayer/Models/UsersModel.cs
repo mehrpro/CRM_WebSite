@@ -26,10 +26,12 @@ namespace DataLayer
         [Display(Name = "آدرس")]
         [MaxLength(350)]
         [Required(ErrorMessage = "لطفا {0} را وارد کنید")]
+        [DataType(DataType.MultilineText)]
         public string AddressOne { get; set; }
 
         [Display(Name = "آدرس دوم")]
         [MaxLength(350)]
+        [DataType(DataType.MultilineText)]
         public string AddressTwo { get; set; }
 
         [Display(Name = "تلفن ثابت")]
